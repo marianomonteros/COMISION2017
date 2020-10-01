@@ -1,0 +1,325 @@
+*{
+	font-family: verdana; 
+}
+h1{
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom:1px;
+}
+h2{
+	text-align: left;
+	line-height: 40px;
+	color:black;
+}
+
+
+h3{
+	text-align: left;
+	color:black;
+}
+header{
+	background-color:black;
+	color:white;
+	height: 100px;
+	padding-top: 20px;
+}
+#id_tab_nav{
+    width: 250px;
+	border-spacing: 10px 5px;
+	text-align:left;
+}
+
+#tab_receta , ul{
+	color:black;
+}
+
+
+#id_th_nav {
+    width: 100px;
+    background-color:black;
+}
+
+
+.nav{
+  background-color: black;
+  font-size: 1rem;
+  color: white;
+  flex:0 250px;
+  margin: 0.1rem;
+  color:white;
+  font-family:Courier New;
+  font-size:16px;
+  text-decoration: none;
+  margin:5px;
+}
+
+
+#cajaForm{
+		background-color: #F0F8FF;
+		padding: 20px;
+		flex:0 1000px;
+		text-align: left;
+		font-weight: bolder;
+		font-size: 12px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 13px;
+}
+
+form {
+		flex:0 1000px;
+}
+
+footer{
+	background-color:black;
+	color:white;
+	text-align:center;
+	margin-top:10px;
+}
+
+a{
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+        
+.fa-twitter{
+	margin-top:15px;
+
+}
+
+img {
+    width:100%;
+    max-width:410px;
+}
+
+#caja1 
+    {
+	width:100%;
+    position: static;
+}
+#caja0
+        {
+		width:100%;
+        position: absolute;
+		right: -1px;
+	}
+
+#id_p{
+  color: black;	
+}		
+#zan_anim1{
+		width:33px;
+		height:33px;
+		margin-left: 50%;
+}
+
+#zan_anim0{
+		width:31px;
+		height:33px;
+		margin-left: 50%;
+}
+
+#zan_anim0:hover{
+		animation:tamanio 1s
+
+}
+
+@keyframes tamanio
+{
+	from
+	{
+	width:1px;
+	height:1px;
+	}
+	to
+	{
+    width: 1px;
+    height: 1px;
+	}
+}
+
+@-moz-keyframes tamanio
+{
+	from
+	{
+	width:1px;
+	height:1px;
+	}
+	to
+	{
+    width: 1px;
+    height: 1px;
+	}
+}
+
+.contenedor {
+  display: flex;
+  width: 100vm;
+  height: 100%;
+  padding: 0.5rem;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.nav{
+  background-color: black;
+  font-size: 1rem;
+  color: white;
+  flex:0 250px;
+  margin: 0.1rem;
+  font-family:Courier New;
+  font-size:16px;
+  text-decoration: none;
+  margin:5px;
+}
+
+
+#sec_art{
+  background-color: white;
+  font-size: 1rem;
+  color: black;
+  flex:0 637px;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin: 0.1rem;
+}
+ 
+#sec_aside{
+  background-color: gray;
+  font-size: 1rem;
+  color: white;
+  flex:0 420px;
+  padding: 0.5rem;
+  margin: 0.1rem;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:1300px){
+.contenedor {
+  display: flex;
+  width: 100vm;
+  height: 100%;
+  padding: 0.5rem;
+  background-color: white;
+  flex-wrap: wrap;
+  margin:auto;
+ }
+
+.nav{
+  background-color: black;
+  font-size: 1rem;
+  color: white;
+  flex:0 250px;
+  margin: 0.1rem;
+  font-family:Courier New;
+  font-size:16px;
+  text-decoration: none;
+  margin:5px;
+}
+
+#sec_art{
+  background-color: white;
+  font-size: 1rem;
+  color: white;
+  flex:0 630px;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin: 0.1rem;
+}
+ 
+#sec_aside{
+  background-color: gray;
+  font-size: 1rem;
+  color: white;
+  flex:0 880px;
+  padding: 0.5rem;
+  margin: 0.1rem;
+  box-sizing: border-box;
+}
+
+
+form {
+		flex:0 600px;
+}
+
+#cajaForm{
+		background-color: #F0F8FF;
+		padding: 20px;
+		flex:0 800px;
+		text-align: left;
+		font-weight: bolder;
+		font-size: 12px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 13px;
+}
+}
+
+
+@media screen and (max-width:500px){
+.contenedor {
+  display: flex;
+  width: 100vm;
+  height: 100%;
+  padding: 0.5rem;
+  background-color: white;
+  flex-wrap: wrap;
+  margin:auto;
+}
+    
+#id_tab_nav{
+    width: 400px;
+	border-spacing: 10px 5px;
+}
+
+.nav{
+  background-color: black;
+  font-size: 1rem;
+  color: white;
+  flex:0 400px;
+  margin: 0.1rem;
+  font-family:Courier New;
+  font-size:16px;
+  text-decoration: none;
+  margin:5px;
+}
+
+
+#sec_art{
+  background-color: white;
+  font-size: 1rem;
+  color: white;
+  flex:0 400px;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin: 0.1rem;
+}
+ 
+#sec_aside{
+  background-color: gray;
+  font-size: 1rem;
+  color: white;
+  flex:0 400px;
+  padding: 0.5rem;
+  margin: 0.1rem;
+  box-sizing: border-box;
+}
+
+
+form {
+		flex:0 300px;
+}
+
+#cajaForm{
+		background-color: #F0F8FF;
+		padding: 20px;
+		flex:0 400px;
+		text-align: left;
+		font-weight: bolder;
+		font-size: 12px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 13px;
+}
+}
